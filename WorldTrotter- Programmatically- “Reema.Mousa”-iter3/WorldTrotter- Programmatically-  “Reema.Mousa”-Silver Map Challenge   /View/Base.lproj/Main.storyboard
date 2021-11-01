@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="sBq-E4-DRp">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="Ssa-JQ-nEO">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="sBq-E4-DRp" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oPU-1e-dz8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="h7a-uw-Vrh" kind="relationship" relationship="viewControllers" id="LIU-Yu-2Ci"/>
+                        <segue destination="ak2-JM-M6Z" kind="relationship" relationship="viewControllers" id="W02-4c-CK0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FjW-3a-H83" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1491" y="250"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="B83-I5-oFK">
+            <objects>
+                <viewController id="ak2-JM-M6Z" customClass="MapViewController" customModule="WorldTrotter__Programmatically____Reema_Mousa__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="qua-x3-u13">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="dbW-7q-3bS" customClass="mapViewCotroller" customModule="WorldTrotter__Programmatically____Reema_Mousa__iter1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                            </mapView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Fe4-jv-vOh"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Fe4-jv-vOh" firstAttribute="bottom" secondItem="dbW-7q-3bS" secondAttribute="bottom" id="aEP-1l-P3g"/>
+                            <constraint firstItem="dbW-7q-3bS" firstAttribute="leading" secondItem="Fe4-jv-vOh" secondAttribute="leading" id="l1f-Gp-rir"/>
+                            <constraint firstItem="Fe4-jv-vOh" firstAttribute="trailing" secondItem="dbW-7q-3bS" secondAttribute="trailing" id="rkH-1q-Li7"/>
+                            <constraint firstItem="dbW-7q-3bS" firstAttribute="top" secondItem="Fe4-jv-vOh" secondAttribute="top" id="tSk-mH-YTO"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="gs7-AE-amd"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8gD-VA-yDf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-604" y="979"/>
+        </scene>
+        <!--Convert -->
+        <scene sceneID="tHY-u4-9Pw">
+            <objects>
+                <viewController id="h7a-uw-Vrh" customClass="ConversionViewController" customModule="WorldTrotter__Programmatically____Reema_Mousa__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TWs-04-F0H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="mL3-9X-FFF"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Convert " image="ConvertIcon" id="x5a-nm-S74"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pUR-TQ-tUK" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2317.3913043478265" y="977.67857142857133"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ConvertIcon" width="48.5" height="32.5"/>
+        <image name="MapIcon" width="48.5" height="32.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
