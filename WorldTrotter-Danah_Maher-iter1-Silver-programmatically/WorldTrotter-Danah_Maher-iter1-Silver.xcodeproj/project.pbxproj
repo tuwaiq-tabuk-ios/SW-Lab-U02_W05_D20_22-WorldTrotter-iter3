@@ -12,8 +12,8 @@
 		D01D3574272FC5B70069C0DB /* CMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D3573272FC5B70069C0DB /* CMLabel.swift */; };
 		D01D3581272FD7B00069C0DB /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D357A272FD1410069C0DB /* QuestionManager.swift */; };
 		D01D3583272FD7B30069C0DB /* questionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D3582272FD7B30069C0DB /* questionViewController.swift */; };
-		D01D3585272FD7B50069C0DB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D3584272FD7B50069C0DB /* Question.swift */; };
 		D01D3587272FD8670069C0DB /* clapping.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D01D3586272FD8670069C0DB /* clapping.mp3 */; };
+		D01D358B272FDB330069C0DB /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01D358A272FDB330069C0DB /* Question.swift */; };
 		D069E800272AC934000C496D /* ConversionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D069E7FF272AC934000C496D /* ConversionViewController.swift */; };
 		D0FD7628272686A600AF7493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD7627272686A600AF7493 /* AppDelegate.swift */; };
 		D0FD762A272686A600AF7493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD7629272686A600AF7493 /* SceneDelegate.swift */; };
@@ -29,8 +29,8 @@
 		D01D3573272FC5B70069C0DB /* CMLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CMLabel.swift; sourceTree = "<group>"; };
 		D01D357A272FD1410069C0DB /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = QuestionManager.swift; path = Custom_views/Quiz/QuestionManager.swift; sourceTree = "<group>"; };
 		D01D3582272FD7B30069C0DB /* questionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = questionViewController.swift; sourceTree = "<group>"; };
-		D01D3584272FD7B50069C0DB /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "../../../../SW- Unit01/SW-U01-LABS-HOMEWORK/SW-Lab-U01_W03_D15-TriviaMultipleChoice/TriviaMultipleChoice\"Dana\"/TriviaMultipleChoice\"Dana\"/Model/Question.swift"; sourceTree = "<group>"; };
 		D01D3586272FD8670069C0DB /* clapping.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clapping.mp3; sourceTree = "<group>"; };
+		D01D358A272FDB330069C0DB /* Question.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Question.swift; path = "../../../../../SW- Unit01/SW-U01-LABS-HOMEWORK/SW-Lab-U01_W03_D15-TriviaMultipleChoice/TriviaMultipleChoice\"Dana\"/TriviaMultipleChoice\"Dana\"/Model/Question.swift"; sourceTree = "<group>"; };
 		D069E7FF272AC934000C496D /* ConversionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionViewController.swift; sourceTree = "<group>"; };
 		D0FD7624272686A600AF7493 /* WorldTrotter-Danah_Maher-iter1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WorldTrotter-Danah_Maher-iter1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FD7627272686A600AF7493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -102,9 +102,9 @@
 				D01D3572272FC5830069C0DB /* Custom_views */,
 				D069E801272EBB6E000C496D /* ViewController */,
 				D0FD7627272686A600AF7493 /* AppDelegate.swift */,
-				D01D3584272FD7B50069C0DB /* Question.swift */,
 				D01D3586272FD8670069C0DB /* clapping.mp3 */,
 				D01D3582272FD7B30069C0DB /* questionViewController.swift */,
+				D01D358A272FDB330069C0DB /* Question.swift */,
 				D01D357A272FD1410069C0DB /* QuestionManager.swift */,
 				D0FD7629272686A600AF7493 /* SceneDelegate.swift */,
 				D0FD762D272686A600AF7493 /* Main.storyboard */,
@@ -191,10 +191,10 @@
 				D01346F6272925710083E65A /* MapViewController.swift in Sources */,
 				D0FD7628272686A600AF7493 /* AppDelegate.swift in Sources */,
 				D01D3583272FD7B30069C0DB /* questionViewController.swift in Sources */,
+				D01D358B272FDB330069C0DB /* Question.swift in Sources */,
 				D0FD762A272686A600AF7493 /* SceneDelegate.swift in Sources */,
 				D01D3581272FD7B00069C0DB /* QuestionManager.swift in Sources */,
 				D01D3571272FC3780069C0DB /* UIColor+Ext.swift in Sources */,
-				D01D3585272FD7B50069C0DB /* Question.swift in Sources */,
 				D069E800272AC934000C496D /* ConversionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
