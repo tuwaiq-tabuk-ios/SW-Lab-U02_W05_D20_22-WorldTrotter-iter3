@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="WXo-X0-7hb">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Convert-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="Conversion" customModule="WorldTrotter_programmatically__Resam_Mohammed__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" userLabel="Root_View">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Fahrenheit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4o1-Uo-EUI" userLabel="degrees_Fahrenheit_Label">
+                                <rect key="frame" x="0.0" y="186" width="414" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="90" id="Cbs-15-6l6"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is really" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8DV-yu-6vl" userLabel="Is_Really_LAbel">
+                                <rect key="frame" x="0.0" y="395" width="414" height="72"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="72" id="ruf-ew-3hi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="degrees Celsius" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gWG-hM-fAL" userLabel="Degrees_Celsius_Label">
+                                <rect key="frame" x="0.0" y="701" width="414" height="112"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="36"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="212" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Hh-bp-kgk" userLabel="212_Label">
+                                <rect key="frame" x="0.0" y="62" width="414" height="84"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y4W-1w-Adm" userLabel="100_Label">
+                                <rect key="frame" x="0.0" y="557" width="414" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="bgJ-0d-h0A"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                <color key="textColor" red="0.88235294117647056" green="0.34509803921568627" blue="0.16078431372549018" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.96078431372549022" green="0.95686274509803915" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="8DV-yu-6vl" firstAttribute="leading" secondItem="y4W-1w-Adm" secondAttribute="leading" id="3cR-qN-st2"/>
+                            <constraint firstItem="gWG-hM-fAL" firstAttribute="top" secondItem="y4W-1w-Adm" secondAttribute="bottom" constant="83" id="Axt-cu-0bv"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="trailing" secondItem="2Hh-bp-kgk" secondAttribute="trailing" id="GeR-IU-9Tq"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="leading" secondItem="2Hh-bp-kgk" secondAttribute="leading" id="HWn-Xa-IlD"/>
+                            <constraint firstItem="gWG-hM-fAL" firstAttribute="trailing" secondItem="y4W-1w-Adm" secondAttribute="trailing" id="IwR-EY-1wZ"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="JBY-Tm-RSO"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="trailing" secondItem="4o1-Uo-EUI" secondAttribute="trailing" id="MXz-kC-LZT"/>
+                            <constraint firstItem="4o1-Uo-EUI" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="186" id="Rpc-9F-jLG"/>
+                            <constraint firstAttribute="bottom" secondItem="y4W-1w-Adm" secondAttribute="bottom" constant="278" id="XHF-KH-3Fx"/>
+                            <constraint firstItem="gWG-hM-fAL" firstAttribute="leading" secondItem="y4W-1w-Adm" secondAttribute="leading" id="ag8-5I-D33"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="top" secondItem="8DV-yu-6vl" secondAttribute="bottom" constant="90" id="e3o-bR-chZ"/>
+                            <constraint firstItem="8DV-yu-6vl" firstAttribute="trailing" secondItem="y4W-1w-Adm" secondAttribute="trailing" id="hcE-Pb-0ga"/>
+                            <constraint firstItem="y4W-1w-Adm" firstAttribute="leading" secondItem="4o1-Uo-EUI" secondAttribute="leading" id="ltg-Yd-JBE"/>
+                            <constraint firstAttribute="trailing" secondItem="y4W-1w-Adm" secondAttribute="trailing" id="oqx-0p-PP2"/>
+                            <constraint firstItem="4o1-Uo-EUI" firstAttribute="top" secondItem="2Hh-bp-kgk" secondAttribute="bottom" constant="40" id="wqY-mn-6N4"/>
+                            <constraint firstItem="gWG-hM-fAL" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="ykl-5E-rme"/>
+                        </constraints>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Convert" image="ConvertIcon" id="ePT-Ab-dnI" userLabel="Convert"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="230" y="596"/>
+        </scene>
+        <!--Map-->
+        <scene sceneID="8Cy-zQ-A9A">
+            <objects>
+                <viewController id="zUh-P3-q4V" customClass="MapViewController" customModule="WorldTrotter_programmatically__Resam_Mohammed__iter1" customModuleProvider="target" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Map" image="MapIcon" id="uqa-FT-kZO" userLabel="Map"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W9d-l5-e12" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="114" y="1345"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6yA-lt-OcN">
+            <objects>
+                <tabBarController id="WXo-X0-7hb" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZQS-Bv-IV4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="tD8-Na-Lby"/>
+                        <segue destination="zUh-P3-q4V" kind="relationship" relationship="viewControllers" id="f7O-94-IRJ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lni-h0-Pr6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-777" y="1042"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ConvertIcon" width="48.5" height="32.5"/>
+        <image name="MapIcon" width="48.5" height="32.5"/>
+    </resources>
+</document>
